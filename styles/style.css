@@ -14,16 +14,16 @@ body {
 }
 
 .header__links-list {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 21px;
-  list-style: circle;
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 21px;
+  list-style: circle;
 }
 
 .header__links-list-item1 {
@@ -55,14 +55,14 @@ body {
 }
 
 .address {
-  max-width: 240px;
-  justify-self: end;
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px; /* 135% */
+  max-width: 240px;
+  justify-self: end;
 }
 
 .address a {
@@ -89,8 +89,6 @@ body {
 }
 
 .cover__title {
-  position: absolute;
-  width: 1340px;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 100px;
@@ -101,6 +99,8 @@ body {
   text-transform: uppercase;
   z-index: 2;
   padding: 175px 0px 0px 50px;
+  position: absolute;
+  width: 1340px;
 }
 
 .aligned-text_center {
@@ -122,11 +122,6 @@ body {
 }
 
 .cover__description {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
   color: #fff;
   text-align: center;
   font-family: Raleway, sans-serif;
@@ -136,6 +131,11 @@ body {
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
   z-index: 3;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 .cover__description-text {
@@ -144,10 +144,6 @@ body {
 }
 
 .bet-button {
-  border: 1px solid #fff;
-  background: transparent;
-  width: 257px;
-  height: 52px;
   color: #fff;
   text-align: center;
   font-family: Raleway, sans-serif;
@@ -157,6 +153,10 @@ body {
   line-height: normal;
   text-transform: uppercase;
   z-index: 3;
+  border: 1px solid #fff;
+  background: transparent;
+  width: 257px;
+  height: 52px;
 }
 
 /* карточки */
@@ -194,8 +194,6 @@ body {
 }
 
 .card__title {
-  position: absolute;
-  width: 350px;
   color: white;
   font-family: Raleway, sans-serif;
   font-size: 22px;
@@ -208,12 +206,11 @@ body {
   margin: 50px 40px 0px;
   flex-wrap: wrap;
   flex-grow: 1;
+  position: absolute;
+  width: 350px;
 }
 
 .card__text {
-  position: absolute;
-  width: 350px;
-  flex-wrap: wrap;
   color: white;
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -224,6 +221,8 @@ body {
   margin: 0px 40px 50px;
   align-self: flex-end;
   word-spacing: 1px;
+  position: absolute;
+  width: 350px;
   flex-wrap: wrap;
 }
 
@@ -261,9 +260,6 @@ body {
 }
 
 .lots__look-more-link {
-  position: absolute;
-  bottom: 0px;
-  left: 40px;
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 21px;
@@ -271,6 +267,9 @@ body {
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
 }
 
 /* об аукционе */
@@ -371,7 +370,6 @@ body {
   font-weight: 400;
   line-height: normal;
   list-style-type: none;
-  text-align: center;
 }
 
 .footer__menu-link_active {

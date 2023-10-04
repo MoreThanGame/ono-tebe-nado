@@ -1,8 +1,8 @@
-/* шапка */
-
 body {
   max-width: 1440px;
 }
+
+/* шапка */
 
 .header {
   width: 1340px;
@@ -24,6 +24,7 @@ body {
   align-items: flex-start;
   gap: 21px;
   list-style: circle;
+  
 }
 
 .header__links-list-item1 {
